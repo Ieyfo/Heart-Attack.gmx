@@ -62,7 +62,7 @@ if(zHealth&lt;=0){
     global.zombiesLeft--;
     global.kills++;
     instance_create(x,y, oBloodSplatter);
-    oPlayer.pShootSpeed-=.0005*(global.wave/2.5);
+    oPlayer.pShootSpeed-=.001*(global.wave/2.5);
     show_debug_message("Zombie killed");
 }
 

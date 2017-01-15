@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,39 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fMenu);
-draw_set_halign(fa_center);
-draw_set_valign(fa_center);
-draw_text(room_width/2, 200, "Game Over!" );
-draw_text(room_width/2, 400, "You survived "+string(global.wave)+" wave(s)");
-draw_text(room_width/2, 450, "Total Kills: "+string(global.kills));
-draw_text(room_width/2, 500, "Press Space to Play Again");
-draw_set_font(noone);
-draw_set_halign(noone);
-draw_set_valign(noone);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="9" enumb="32">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>game_restart();
+            <string>songNum = 0;
+song = 0;
+audio_play_sound(song2, 10,true);
 </string>
           </argument>
         </arguments>

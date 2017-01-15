@@ -37,6 +37,14 @@ switch(global.wave){
         image_xscale = 10;
         image_yscale = 10;
     break;
+    case 15:
+        image_xscale = 10;
+        image_yscale = 10;
+    break;
+    case 20:
+        image_xscale = 10;
+        image_yscale = 10;
+    break;
 }
 </string>
           </argument>

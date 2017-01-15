@@ -28,7 +28,7 @@
             <string>draw_set_font(fMenu);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
-draw_text(room_width/2, 200, "Game Over!" );
+draw_text(room_width/2, 200, "YOU WIN!!!" );
 draw_text(room_width/2, 400, "You survived "+string(global.wave)+" wave(s)");
 draw_text(room_width/2, 450, "Total Kills: "+string(global.kills));
 draw_text(room_width/2, 500, "Press Space to Play Again");

@@ -7,6 +7,8 @@
   <sounds name="sound">
     <sound>sound\snHit</sound>
     <sound>sound\snShoot</sound>
+    <sound>sound\song1</sound>
+    <sound>sound\song2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
@@ -42,12 +44,15 @@
     <object>objects\oBloodSplatter</object>
     <object>objects\oWoodPlank</object>
     <object>objects\oControlGameOver</object>
+    <object>objects\oControWin</object>
     <object>objects\oSnake</object>
     <object>objects\oControlMain</object>
+    <object>objects\oMusicPlayer</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rTest</room>
     <room>rooms\rGameOver</room>
+    <room>rooms\rWin</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

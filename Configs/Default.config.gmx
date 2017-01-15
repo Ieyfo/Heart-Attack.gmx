@@ -211,7 +211,7 @@
     <option_changeresolution>false</option_changeresolution>
     <option_closeesc>true</option_closeesc>
     <option_colordepth>0</option_colordepth>
-    <option_display_name>GameMaker: Studio</option_display_name>
+    <option_display_name>Wave Attack</option_display_name>
     <option_displayerrors>True</option_displayerrors>
     <option_ecma>0</option_ecma>
     <option_facebook_app_display_name></option_facebook_app_display_name>
@@ -469,7 +469,7 @@
     <option_version_build>0</option_version_build>
     <option_version_company></option_version_company>
     <option_version_copyright></option_version_copyright>
-    <option_version_description></option_version_description>
+    <option_version_description>Developed for GM48 #21. Programmed By: @ieyfo(Charles Medeiros) Art By: @TheAakara</option_version_description>
     <option_version_major>1</option_version_major>
     <option_version_minor>0</option_version_minor>
     <option_version_product></option_version_product>
@@ -546,7 +546,7 @@
     <option_windows_company_info></option_windows_company_info>
     <option_windows_copyright_info></option_windows_copyright_info>
     <option_windows_create_textures_on_demand>True</option_windows_create_textures_on_demand>
-    <option_windows_description_info></option_windows_description_info>
+    <option_windows_description_info>Developed for GM48 #21. Programmed By: @ieyfo(Charles Medeiros) Art By: @TheAakara</option_windows_description_info>
     <option_windows_enable_steam>0</option_windows_enable_steam>
     <option_windows_game_icon>Configs\Default\windows\runner_icon.ico</option_windows_game_icon>
     <option_windows_license>Configs\Default\windows\License.txt</option_windows_license>
@@ -563,7 +563,7 @@
     <option_windows_splash_screen>Configs\Default\windows\splash.png</option_windows_splash_screen>
     <option_windows_steam_app_id>0</option_windows_steam_app_id>
     <option_windows_texture_page>8192</option_windows_texture_page>
-    <option_windows_use_splash>-1</option_windows_use_splash>
+    <option_windows_use_splash>0</option_windows_use_splash>
     <option_windows_vertex_buffer_method2>2</option_windows_vertex_buffer_method2>
     <option_winphone_480_splash_image>Configs\Default\WinPhone\SplashScreenImage480.jpg</option_winphone_480_splash_image>
     <option_winphone_720_splash_image>Configs\Default\WinPhone\SplashScreenImage720.jpg</option_winphone_720_splash_image>
