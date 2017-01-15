@@ -25,9 +25,15 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text_colour(room_width/2, 200, "Game Over!",c_red, c_red, c_red, c_red, 1);
-
-draw_text_colour(room_width/2, 400, "You Survived"+string(global.wave)+"Waves.",c_red, c_red, c_red, c_red, 1);
+            <string>draw_set_font(fMenu);
+draw_set_halign(fa_center);
+draw_set_valign(fa_center);
+draw_text(room_width/2, 200, "Game Over!" );
+draw_text(room_width/2, 400, "You survived "+string(global.wave)+" wave(s)");
+draw_text(room_width/2, 500, "Press Space to Play Again");
+draw_set_font(noone);
+draw_set_halign(noone);
+draw_set_valign(noone);
 </string>
           </argument>
         </arguments>

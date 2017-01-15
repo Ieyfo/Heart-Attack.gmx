@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snHit</sound>
+    <sound>sound\snShoot</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\sZombie</sprite>
@@ -17,6 +20,7 @@
   <backgrounds name="background">
     <background>background\bgGame</background>
     <background>background\bgGUI</background>
+    <background>background\bgWelcome</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -27,6 +31,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fGUI</font>
+    <font>fonts\fMenu</font>
   </fonts>
   <objects name="objects">
     <object>objects\oPlayer</object>
@@ -38,6 +43,7 @@
     <object>objects\oWoodPlank</object>
     <object>objects\oControlGameOver</object>
     <object>objects\oSnake</object>
+    <object>objects\oControlMain</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rTest</room>

@@ -94,6 +94,7 @@ if(canShoot == true){
             instance_create(x,y,oProjectile);
             canShoot = false;
             alarm[0] = room_speed*pShootSpeed;
+            audio_play_sound(snShoot, 4,false);
         break;
     }
 }
